@@ -1,0 +1,14 @@
+{
+  "name": "nodewebapi",
+  "version": "1.0.0",
+  "description": "Repository for practice the Node Web API project for the course Web Services and Cloud Technologies. When i finish my goals i will update this README.md file.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

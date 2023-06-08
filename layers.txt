@@ -1,0 +1,16 @@
+N-Layers
+
+
+src - contains the source code of the application
+    entities - object mappings
+    factories - instant factories
+    repositories - data access
+    routes - endpoints mapping
+    services - communication between the routes and repositories layer (business logic)
+    utils - helper functions (shared code)
+    handler communication between the routes and services layer (error handling)
+    database - a file which contains the database schema and the data
+
+tests -> all automated test suites
+    integration tests - test on the user point of view. Also an E2E test because there's no app layer
+    unit tests - test on the developer point of view. Test each layer separately
